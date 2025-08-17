@@ -4,7 +4,7 @@
   <groupId>gg.quartzdev.mc</groupId>
   <artifactId>LiteBansRollback</artifactId>
   <name>LiteBansRollback</name>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <build>
     <defaultGoal>clean package</defaultGoal>
     <resources>
@@ -54,7 +54,7 @@
       <url>https://repo.codemc.org/repository/maven-public/</url>
     </repository>
     <repository>
-      <id>z-jitpack</id>
+      <id>jitpack</id>
       <url>https://jitpack.io</url>
     </repository>
     <repository>

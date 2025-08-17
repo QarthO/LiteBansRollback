@@ -61,14 +61,14 @@ public final class LiteBansRollback extends JavaPlugin
     }
 
     public void rollbackUsersBlocks(UUID uuid) {
-        int time = -1;
+        int time = Integer.MAX_VALUE;
         OfflinePlayer offlinePlayer = Bukkit.getOfflinePlayer(uuid);
         String username = offlinePlayer.getName();
         List<String> usersToRollback = List.of(username);
         CoreProtect.getInstance().getAPI().performRollback(
             time, usersToRollback, null, null, null, null, -1, null
         );
-        log("[LiteBansRollback] <green>Rollbacked <yellow>" + username + "'s</yellow> actions");
+        log("[LiteBansRollback] <yellow>Rollbacked <red>" + username + "'s</red> actions");
     }
 
     public void log(String message) {
