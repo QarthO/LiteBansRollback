@@ -1,0 +1,10 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "maven.terminal.favorites": [
+        {
+            "command": "clean package",
+            "debug": false
+        }
+    ]
+}
